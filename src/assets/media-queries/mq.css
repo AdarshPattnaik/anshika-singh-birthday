@@ -1,0 +1,93 @@
+@media screen and (max-width:570px) {
+
+    .search-field,
+    .search-box input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:530px) {
+
+    .home {
+        gap: 40px;
+    }
+
+    .motion-write {
+        font-size: 32px;
+    }
+
+    .transition-write-box {
+        width: 100%;
+        padding: 0 40px;
+        font-size: 16px;
+    }
+
+    .home-btn {
+        font-size: 16px;
+        color: #ff77b0;
+        border: 1px solid #ff77b0;
+    }
+
+    .home::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.9;
+        background: url(../img/jpg/bg-home-mob.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        z-index: -1;
+        filter: blur(7px);
+        -webkit-filter: blur(7px);
+    }
+}
+
+@media screen and (max-width:425px) {
+    .home {
+        gap: 50px;
+    }
+
+    .motion-write {
+        font-size: 26px;
+    }
+
+    .transition-write-box {
+        padding: 0 20px;
+        font-size: 14px;
+    }
+
+    .home-btn {
+        font-size: 14px;
+    }
+
+    .path-nav-btn {
+        width: 20px;
+        height: 20px;
+    }
+
+    .navbar h1 {
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    .song-card-box {
+        padding: 20px;
+        gap: 20px;
+        padding-bottom: 120px;
+    }
+
+    .video-container,
+    .player-card {
+        height: 100%;
+        width: 100%;
+    }
+
+    .reel-desp  {
+        font-size: 11px;
+    }
+}
